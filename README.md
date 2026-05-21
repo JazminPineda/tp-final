@@ -75,3 +75,28 @@ PARCIAL/
 │   └── ejemplo.py         # Script de demostración de uso
 ├── pyproject.toml         # Configuración del proyecto y dependencias
 └── uv.lock                # Bloqueo de versiones de uv
+```
+
+## Instalación uv
+
+Windows:
+
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+MacOS:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+## Configurar environment
+
+```bash
+uv venv
+```
+
+```bash
+uv sync
+```
